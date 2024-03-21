@@ -1,5 +1,10 @@
 {
   "tasks": {
     "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@oak/oak": "jsr:@oak/oak@^14.2.0",
+    "@rubiks/rubiks": "jsr:@rubiks/rubiks@^1.2.9",
+    "@std/http": "jsr:@std/http@^0.220.1"
   }
 }
